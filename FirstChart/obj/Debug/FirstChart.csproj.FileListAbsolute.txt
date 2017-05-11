@@ -1,0 +1,9 @@
+c:\users\mejdiradhouai\documents\visual studio 2017\Projects\FirstChart\FirstChart\bin\Debug\FirstChart.exe.config
+c:\users\mejdiradhouai\documents\visual studio 2017\Projects\FirstChart\FirstChart\bin\Debug\FirstChart.exe
+c:\users\mejdiradhouai\documents\visual studio 2017\Projects\FirstChart\FirstChart\bin\Debug\FirstChart.pdb
+c:\users\mejdiradhouai\documents\visual studio 2017\Projects\FirstChart\FirstChart\obj\Debug\FirstChart.csprojResolveAssemblyReference.cache
+c:\users\mejdiradhouai\documents\visual studio 2017\Projects\FirstChart\FirstChart\obj\Debug\FirstChart.Form1.resources
+c:\users\mejdiradhouai\documents\visual studio 2017\Projects\FirstChart\FirstChart\obj\Debug\FirstChart.Properties.Resources.resources
+c:\users\mejdiradhouai\documents\visual studio 2017\Projects\FirstChart\FirstChart\obj\Debug\FirstChart.csproj.GenerateResource.Cache
+c:\users\mejdiradhouai\documents\visual studio 2017\Projects\FirstChart\FirstChart\obj\Debug\FirstChart.exe
+c:\users\mejdiradhouai\documents\visual studio 2017\Projects\FirstChart\FirstChart\obj\Debug\FirstChart.pdb
