@@ -10,18 +10,18 @@ namespace FirstChart.Model
     class Mesure_Model
     {
         public int Id { get; set; }
-        public DateTime Temps { get; set; }
-        public decimal Volt { get; set; }
-        public decimal Amper { get; set; }
+        public float Temps { get; set; }
+        public float Volt { get; set; }
+        public float Amper { get; set; }
         public string Type { get; set; }
 
         public Mesure_Model() { }
         public Mesure_Model(DataRow dr)
         {
             Id = (int)dr["Id"];
-            Temps = (DateTime)dr["Temps"];
-            Volt = (decimal)dr["Volt"];
-            Amper = (decimal)dr["Amper"];
+            Temps =float.Parse(dr["Temps"].ToString());
+            Volt = float.Parse(dr["Volt"].ToString());
+            Amper = float.Parse(dr["Amper"].ToString());
             Type = (string)dr["Type"];
         }
         public static List<Mesure_Model> GetList(DataTable dt)

@@ -21,7 +21,7 @@ namespace FirstChart
         private void Form1_Load(object sender, EventArgs e)
         {    // ordonnée
             
-           FirstChart.ChartAreas[0].AxisY.Maximum = 30.00;
+            FirstChart.ChartAreas[0].AxisY.Maximum = 30.00;
             FirstChart.ChartAreas[0].AxisY.Minimum = 0.00;
             FirstChart.ChartAreas[0].AxisX.Maximum = 25;
             FirstChart.ChartAreas[0].AxisX.Minimum = 0.00;
@@ -50,8 +50,7 @@ namespace FirstChart
             FirstChart.Series.Add(serie2);
             FirstChart.Legends.Add(new Legend("Automatiser des mésures"));
 
-            button2.Hide();
-            FirstChart.Hide();
+            button2.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -66,6 +65,18 @@ namespace FirstChart
             FirstChart.Hide();
             button1.Show();
             button2.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DataForm d = new DataForm();
+            d.Show();
+            
+        }
+
+        private void FirstChart_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
