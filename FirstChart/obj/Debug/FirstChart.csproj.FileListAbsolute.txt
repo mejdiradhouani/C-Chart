@@ -8,3 +8,5 @@ c:\users\mejdiradhouai\documents\visual studio 2017\Projects\FirstChart\FirstCha
 c:\users\mejdiradhouai\documents\visual studio 2017\Projects\FirstChart\FirstChart\obj\Debug\FirstChart.exe
 c:\users\mejdiradhouai\documents\visual studio 2017\Projects\FirstChart\FirstChart\obj\Debug\FirstChart.pdb
 C:\Users\MejdiRadhouai\Documents\Visual Studio 2017\Projects\FirstChart\FirstChart\obj\Debug\FirstChart.DataForm.resources
+C:\Users\MejdiRadhouai\Documents\Visual Studio 2017\Projects\FirstChart\FirstChart\obj\Debug\FirstChart.Courbe1Form.resources
+C:\Users\MejdiRadhouai\Documents\Visual Studio 2017\Projects\FirstChart\FirstChart\obj\Debug\FirstChart.HomeForm.resources

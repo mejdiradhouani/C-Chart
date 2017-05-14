@@ -126,6 +126,7 @@ namespace FirstChart
             CourbeChart.Legends.Clear();
 
 
+
         }
 
         private void panelCourbe_Paint(object sender, PaintEventArgs e)

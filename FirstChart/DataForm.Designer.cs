@@ -193,9 +193,9 @@
             // panelCourbe
             // 
             this.panelCourbe.Controls.Add(this.CourbeChart);
-            this.panelCourbe.Location = new System.Drawing.Point(13, 67);
+            this.panelCourbe.Location = new System.Drawing.Point(13, 173);
             this.panelCourbe.Name = "panelCourbe";
-            this.panelCourbe.Size = new System.Drawing.Size(911, 367);
+            this.panelCourbe.Size = new System.Drawing.Size(911, 261);
             this.panelCourbe.TabIndex = 6;
             this.panelCourbe.Paint += new System.Windows.Forms.PaintEventHandler(this.panelCourbe_Paint);
             // 
