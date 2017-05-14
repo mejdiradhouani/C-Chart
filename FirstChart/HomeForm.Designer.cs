@@ -30,9 +30,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TxtLieu = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.timePickerDate = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -57,12 +57,12 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Au profil du :";
             // 
-            // textBox1
+            // TxtLieu
             // 
-            this.textBox1.Location = new System.Drawing.Point(176, 70);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(209, 20);
-            this.textBox1.TabIndex = 2;
+            this.TxtLieu.Location = new System.Drawing.Point(176, 70);
+            this.TxtLieu.Name = "TxtLieu";
+            this.TxtLieu.Size = new System.Drawing.Size(209, 20);
+            this.TxtLieu.TabIndex = 2;
             // 
             // label3
             // 
@@ -74,21 +74,23 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Date";
             // 
-            // dateTimePicker1
+            // timePickerDate
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(176, 129);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(209, 20);
-            this.dateTimePicker1.TabIndex = 5;
+            this.timePickerDate.Location = new System.Drawing.Point(176, 129);
+            this.timePickerDate.Name = "timePickerDate";
+            this.timePickerDate.Size = new System.Drawing.Size(209, 20);
+            this.timePickerDate.TabIndex = 5;
             // 
             // button1
             // 
+            this.button1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Location = new System.Drawing.Point(174, 199);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(211, 29);
             this.button1.TabIndex = 6;
             this.button1.Text = "Acceder au rapport";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // HomeForm
@@ -97,9 +99,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(570, 261);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.timePickerDate);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtLieu);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "HomeForm";
@@ -113,9 +115,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TxtLieu;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker timePickerDate;
         private System.Windows.Forms.Button button1;
     }
 }

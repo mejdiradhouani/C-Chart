@@ -24,7 +24,8 @@ namespace FirstChart
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Courbe1Form f = new Courbe1Form();
+            
+            Home2 f = new Home2(TxtLieu.Text,timePickerDate.Value.ToShortDateString());
             this.Hide();
             f.Show();
         }
